@@ -1,0 +1,13 @@
+
+.text{
+  text-align: center;
+ 
+  font-size: 200px;
+  background: url(image.jpg);
+
+
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

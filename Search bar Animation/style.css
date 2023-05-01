@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400;1,700;1,800&display=swap');
+
+.root{
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body{
+  background: #514d9b;
+}
+
+input{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  background: transparent;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  border: solid 3px #a8a4f6;
+  outline: none;
+  border-radius: 30px;
+  transition: all 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) 0 6px 20px 0 #9A86FD ;
+}
+
+input::placeholder{
+  color: #efefef;
+  opacity: 0;
+  transition: opacity 150ms ease-out;
+}
+input:focus::placeholder{
+  opacity: 1;
+}
+input:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) 0 6px 20px 0 #9A86FD;
+}
+input:hover,
+input:not(:placeholder-shown){
+  width: 258px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) 0 6px 20px 0 #9A86FD;
+}

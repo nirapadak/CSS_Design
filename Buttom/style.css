@@ -1,0 +1,25 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  padding: 10px;
+  
+  margin: 25% 15%;
+  text-align: center;
+  color: white;
+  background: linear-gradient(
+    to right, #8f7eda, #5c48e4
+  );
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  width: 110px;
+  /* transform: scale(20px); */
+  
+}
+
+button:hover{
+  transform: translate(10px,12px);
+}
